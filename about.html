@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة المالك لتقنيات معالجة المياه | SHAX</title>
+    <style>
+        /* 🎨 التنسيق العام والألوان المطلوبة */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #87CEEB; /* أزرق سماوي */
+            color: #000000; /* لون النص أسود */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+
+        header {
+            padding: 30px 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            margin: 40px 0 20px 0;
+            font-weight: bold;
+            border-bottom: 2px dashed #000;
+            padding-bottom: 10px;
+        }
+
+        /* 📸 شبكة صور الفلاتر والشمع */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .image-card {
+            background-color: rgba(255, 255, 255, 0.4);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #000;
+        }
+
+        .image-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        /* 🛠️ كود قسم الـ SHAX المدمج (الموقع الثاني) */
+        .shax-section {
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 30px;
+            border-radius: 12px;
+            border: 2px solid #000;
+            margin: 50px 0;
+            text-align: right;
+        }
+
+        .shax-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .shax-btn {
+            display: inline-block;
+            background-color: #000000;
+            color: #87CEEB;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background 0.3s;
+            margin-top: 15px;
+        }
+
+        .shax-btn:hover {
+            background-color: #222;
+        }
+
+        /* 📞 قسم تواصل معنا في الآخر */
+        footer {
+            margin-top: 60px;
+            padding: 40px 10px;
+            background-color: rgba(0, 0, 0, 0.05);
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-top: 1px solid #000;
+        }
+        .phone-placeholder {
+            font-size: 1.8rem;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1️⃣ اسم الشركة من فوق -->
+    <header>
+        <h1>شركة المالك لتقنيات معالجة المياه</h1>
+    </header>
+
+    <div class="container">
+        
+        <!-- 2️⃣ صور الفلاتر (3 صور) -->
+        <div class="image-grid">
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1585837575652-267c041d77d4?w=500" alt="فلتر مياه 1">
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=500" alt="فلتر مياه 2">
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=500" alt="فلتر مياه 3">
+            </div>
+        </div>
+
+        <!-- 3️⃣ عنوان شمع الفلاتر -->
+        <div class="section-title">ارخص واجود انواع الشمع للفلاتر</div>
+
+        <!-- 4️⃣ صور شمع الفلاتر -->
+        <div class="image-grid">
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?w=500" alt="شمعة فلتر 1">
+            </div>
+            <div class="image-card">
+                <img src="https://images.unsplash.com/photo-1542013936693-8848e57423e3?w=500" alt="شمعة فلتر 2">
+            </div>
+        </div>
+
+        <!-- 5️⃣ دمج كود موقع SHAX بالكامل هنا داخلياً -->
+        <div class="section-title">منصة خدمات SHAX المتكاملة</div>
+        <section class="shax-section">
+            <div class="shax-container">
+                <h2>مرحباً بك في نظام إدارة وتتبع فلاتر المياه الذكي</h2>
+                <p>هذا القسم مدمج برمجياً لتوفير كافة أدوات الفحص، وجدولة صيانة الشمعات، ومتابعة جودة المياه أولاً بأول لتسهيل التحكم الكامل في نظام المعالجة الخاص بك.</p>
+                
+                <!-- زر تفاعلي مشغل بالجافا سكريبت المدمجة بالأسفل -->
+                <button class="shax-btn" id="shaxActionBtn">ابدأ الفحص السريع الآن</button>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- 6️⃣ تواصل معنا عبر الهاتف (فارغ بناءً على طلبك) -->
+    <footer>
+        <div>تواصل معنا عبر الهاتف</div>
+        <div class="phone-placeholder"></div>
+    </footer>
+
+    <!-- 📜 كود الجافا سكريبت المدمج للموقعين -->
+    <script>
+        // كود تشغيل وضبط التفاعلات الخاصة بقسم SHAX المدمج
+        document.getElementById('shaxActionBtn').addEventListener('click', function() {
+            alert('تم تشغيل أداة فحص نظام معالجة المياه بنجاح! جاري الاتصال بالسيرفر الخاص بـ SHAX...');
+            // هنا تقدر تحط أي وظائف برمجية تانية عايزها تشتغل أول ما يضغط على الزرار
+        });
+    </script>
+</body>
+</html>
+
